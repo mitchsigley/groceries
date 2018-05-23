@@ -11,6 +11,9 @@ import UIKit
 class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var CountLabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +29,13 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+  
         if let food = foodList {
+            
+        
             return food.count
+            
+        
         }else {
             return 0
         }
