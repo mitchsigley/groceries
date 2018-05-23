@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		303ADCDC20B045E700231755 /* Food2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303ADCDB20B045E700231755 /* Food2ViewController.swift */; };
-		303ADCDE20B0462100231755 /* AddView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303ADCDD20B0462100231755 /* AddView2Controller.swift */; };
+		303ADCDE20B0462100231755 /* Add2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303ADCDD20B0462100231755 /* Add2ViewController.swift */; };
 		30C7E3E120A4632A00AFCDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E3E020A4632A00AFCDF2 /* AppDelegate.swift */; };
 		30C7E3E320A4632A00AFCDF2 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E3E220A4632A00AFCDF2 /* FoodViewController.swift */; };
 		30C7E3E820A4632A00AFCDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C7E3E620A4632A00AFCDF2 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		303ADCDB20B045E700231755 /* Food2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food2ViewController.swift; sourceTree = "<group>"; };
-		303ADCDD20B0462100231755 /* AddView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView2Controller.swift; sourceTree = "<group>"; };
+		303ADCDD20B0462100231755 /* Add2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Add2ViewController.swift; sourceTree = "<group>"; };
 		30C7E3DD20A4632A00AFCDF2 /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C7E3E020A4632A00AFCDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30C7E3E220A4632A00AFCDF2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				30C7E3E020A4632A00AFCDF2 /* AppDelegate.swift */,
 				30C7E3E220A4632A00AFCDF2 /* FoodViewController.swift */,
 				303ADCDB20B045E700231755 /* Food2ViewController.swift */,
-				303ADCDD20B0462100231755 /* AddView2Controller.swift */,
+				303ADCDD20B0462100231755 /* Add2ViewController.swift */,
 				30C7E41020A467A000AFCDF2 /* AddViewController.swift */,
 				30C7E3E620A4632A00AFCDF2 /* Main.storyboard */,
 				30C7E41220A468A400AFCDF2 /* Contstants.swift */,
@@ -271,7 +271,7 @@
 				30C7E41320A468A400AFCDF2 /* Contstants.swift in Sources */,
 				30C7E41120A467A000AFCDF2 /* AddViewController.swift in Sources */,
 				30C7E3E120A4632A00AFCDF2 /* AppDelegate.swift in Sources */,
-				303ADCDE20B0462100231755 /* AddView2Controller.swift in Sources */,
+				303ADCDE20B0462100231755 /* Add2ViewController.swift in Sources */,
 				30C7E3E320A4632A00AFCDF2 /* FoodViewController.swift in Sources */,
 				303ADCDC20B045E700231755 /* Food2ViewController.swift in Sources */,
 			);

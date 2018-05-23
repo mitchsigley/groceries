@@ -21,7 +21,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="gzl-8h-5wd" kind="relationship" relationship="viewControllers" id="ZOO-8s-f6L"/>
-                        <segue destination="GZG-Kt-aUX" kind="relationship" relationship="viewControllers" id="xLL-kz-zLh"/>
                         <segue destination="5Ht-OJ-16X" kind="relationship" relationship="viewControllers" id="yZu-lR-rKh"/>
                     </connections>
                 </tabBarController>
@@ -125,7 +124,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+ Add"/>
                                 <connections>
-                                    <action selector="itemAdd:" destination="6gy-Uq-eUe" eventType="touchUpInside" id="QTf-FE-IGx"/>
+                                    <action selector="itemAdd:" destination="6gy-Uq-eUe" eventType="touchUpInside" id="OEU-wW-uVN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -134,7 +133,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Food Item" largeTitleDisplayMode="never" id="rnQ-G2-B5Z"/>
                     <connections>
-                        <outlet property="foodName" destination="irC-28-32m" id="ijH-tp-psM"/>
+                        <outlet property="foodName" destination="irC-28-32m" id="wp6-eV-q2l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZvH-ch-WD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,58 +141,9 @@
             <point key="canvasLocation" x="2162" y="271"/>
         </scene>
         <!--Item-->
-        <scene sceneID="vpr-49-Y6b">
-            <objects>
-                <navigationController id="GZG-Kt-aUX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="SdN-Ez-UMA"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="jrL-5w-JrP">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="eB0-Uu-QAt" kind="relationship" relationship="rootViewController" id="wtk-Dk-izq"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ApC-hj-fv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="719" y="-435"/>
-        </scene>
-        <!--Dashboard-->
-        <scene sceneID="Ee6-A3-NI8">
-            <objects>
-                <viewController id="eB0-Uu-QAt" customClass="FoodViewController" customModule="Groceries" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YBy-bq-swf" customClass="UIViewcon">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rq-Ve-13W">
-                                <rect key="frame" x="119" y="194" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iu2-VR-FHv">
-                                <rect key="frame" x="131" y="300" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="mSN-4i-PbM"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Dashboard" id="bYa-bC-WWV"/>
-                    <connections>
-                        <outlet property="CountLabel" destination="1rq-Ve-13W" id="U0f-hr-VWA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wTr-xz-nbR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1482" y="-436"/>
-        </scene>
-        <!--Item-->
         <scene sceneID="knF-50-KeD">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WzL-od-PBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="5Ht-OJ-16X" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="cBS-4h-dtX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="jA6-pw-lAf">
@@ -204,13 +154,13 @@
                         <segue destination="jai-gN-iFI" kind="relationship" relationship="rootViewController" id="vrQ-SZ-4aN"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WzL-od-PBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="718" y="1047"/>
         </scene>
         <!--Fridge-->
         <scene sceneID="TEz-in-qQb">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBW-41-qbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="jai-gN-iFI" customClass="Food2ViewController" customModule="Groceries" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dRv-6M-WgE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -259,17 +209,17 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="Oky-SE-GHB" id="Oge-Ti-5Wt"/>
+                        <outlet property="tableView2" destination="Oky-SE-GHB" id="7Xj-S2-D0i"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cBW-41-qbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1481" y="1047"/>
         </scene>
         <!--New Food Item-->
         <scene sceneID="a3L-fN-BiS">
             <objects>
-                <viewController id="NTJ-dB-gan" customClass="AddView2Controller" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZYA-zG-VDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="NTJ-dB-gan" customClass="Add2ViewController" customModule="Groceries" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Nr-j5-eh2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,7 +237,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+ Add"/>
                                 <connections>
-                                    <action selector="itemAdd:" destination="NTJ-dB-gan" eventType="touchUpInside" id="Jlw-7m-BaA"/>
+                                    <action selector="itemAdd2:" destination="NTJ-dB-gan" eventType="touchUpInside" id="Qrg-Wk-W5s"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -296,12 +246,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Food Item" largeTitleDisplayMode="never" id="uYI-cC-EjE"/>
                     <connections>
-                        <outlet property="foodName" destination="Tsn-Wh-5iA" id="6HM-xN-G6t"/>
+                        <outlet property="foodName2" destination="Tsn-Wh-5iA" id="y9Q-Qk-Tph"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZYA-zG-VDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2161" y="1047"/>
+            <point key="canvasLocation" x="2298" y="1047"/>
         </scene>
     </scenes>
 </document>

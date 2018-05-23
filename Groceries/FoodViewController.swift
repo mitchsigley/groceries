@@ -31,7 +31,8 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
   
         if let food = foodList {
-            
+            print("0return count");
+
         
             return food.count
             
@@ -44,6 +45,8 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         if let food = foodList {
             cell.textLabel?.text = food[indexPath.row]
+            print("0food added");
+
         }
         return cell
     }
