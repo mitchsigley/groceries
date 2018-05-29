@@ -27,16 +27,13 @@ class AddViewController: UIViewController {
         if (foodName.text != nil) && foodName.text != "" {
             foodList?.append(foodName.text!)
             foodName.text = ""
+            print("Pantry item added");
 
         }
         
         
     }
-    @IBAction func navBAck(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil);
 
-    }
-    
 
     /*
     // MARK: - Navigation

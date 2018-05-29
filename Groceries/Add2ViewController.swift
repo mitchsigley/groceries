@@ -9,7 +9,7 @@
 import UIKit
 
 class Add2ViewController: UIViewController {
-
+    
     @IBOutlet weak var foodName2: UITextField!
     
     override func viewDidLoad() {
@@ -22,19 +22,16 @@ class Add2ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func itemAdd2(_ sender: UIButton) {
-        
+    @IBAction func itemAdd2(_ sender: Any) {
+    
         if (foodName2.text != nil) && foodName2.text != "" {
             foodList2?.append(foodName2.text!)
             foodName2.text = ""
+            print("fridge item added");
 
         }
         
         
-    }
-    @IBAction func navBAck(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil);
-
     }
     
 

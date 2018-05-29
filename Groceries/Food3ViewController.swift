@@ -8,8 +8,8 @@
 
 import UIKit
 
-class Food2ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
-   
+class Food3ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var CountLabel: UILabel!
     
@@ -19,20 +19,20 @@ class Food2ViewController:  UIViewController, UITableViewDelegate, UITableViewDa
         
         tableView.delegate = self
         tableView.dataSource = self
-        print("fridge viewloaded");
+        print("freezer viewloaded");
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         tableView.reloadData()
-        print("fridge reload data");
+        print("freezer reload data");
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        if let food = foodList2 {
-            print("fridge return count");
+        if let food = foodList3 {
+            print("freezer return count");
             print(food.count);
             
             return food.count
@@ -44,9 +44,9 @@ class Food2ViewController:  UIViewController, UITableViewDelegate, UITableViewDa
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        if let food = foodList2 {
+        if let food = foodList3 {
             cell.textLabel?.text = food[indexPath.row]
-            print("0food added");
+            print("freezer food added");
             
         }
         return cell
@@ -55,7 +55,7 @@ class Food2ViewController:  UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
-            foodList2?.remove(at: indexPath.row)
+            foodList3?.remove(at: indexPath.row)
             tableView.reloadData()
         }
         

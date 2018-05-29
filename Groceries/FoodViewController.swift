@@ -20,20 +20,22 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
         
         tableView.delegate = self
         tableView.dataSource = self
+        print("pantry viewloaded");
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         tableView.reloadData()
+        print("pantry reload data");
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
   
         if let food = foodList {
-            print("0return count");
+            print("pantry return count");
+            print(food.count);
 
-        
             return food.count
             
         
@@ -45,7 +47,7 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         if let food = foodList {
             cell.textLabel?.text = food[indexPath.row]
-            print("0food added");
+            print("pantry food added");
 
         }
         return cell

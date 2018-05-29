@@ -23,8 +23,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             foodList = [String]()
         }
         
+        
+        if let food2 = fetchdata2() {
+            foodList2 = food2
+        }else {
+            foodList2 = [String]()
+        }
+        
+        if let food3 = fetchdata3() {
+            foodList3 = food3
+        }else {
+            foodList3 = [String]()
+        }
+        
         return true
     }
+    
+ 
+   
     
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -37,6 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         
         saveData(foodList: foodList!)
+        saveData2(foodList2: foodList2!)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -51,6 +68,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         
         saveData(foodList: foodList!)
+        saveData2(foodList2: foodList2!)
 
         
     }

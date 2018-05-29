@@ -18,6 +18,8 @@
 		30C7E40320A4632C00AFCDF2 /* GroceriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E40220A4632C00AFCDF2 /* GroceriesUITests.swift */; };
 		30C7E41120A467A000AFCDF2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E41020A467A000AFCDF2 /* AddViewController.swift */; };
 		30C7E41320A468A400AFCDF2 /* Contstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E41220A468A400AFCDF2 /* Contstants.swift */; };
+		30E9425E20B7E0AC0086E74F /* Add3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */; };
+		30E9426020B7FB570086E74F /* Food3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9425F20B7FB570086E74F /* Food3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		30C7E40420A4632C00AFCDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C7E41020A467A000AFCDF2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		30C7E41220A468A400AFCDF2 /* Contstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstants.swift; sourceTree = "<group>"; };
+		30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add3ViewController.swift; sourceTree = "<group>"; };
+		30E9425F20B7FB570086E74F /* Food3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +112,10 @@
 				30C7E3E020A4632A00AFCDF2 /* AppDelegate.swift */,
 				30C7E3E220A4632A00AFCDF2 /* FoodViewController.swift */,
 				303ADCDB20B045E700231755 /* Food2ViewController.swift */,
-				303ADCDD20B0462100231755 /* Add2ViewController.swift */,
+				30E9425F20B7FB570086E74F /* Food3ViewController.swift */,
 				30C7E41020A467A000AFCDF2 /* AddViewController.swift */,
+				303ADCDD20B0462100231755 /* Add2ViewController.swift */,
+				30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */,
 				30C7E3E620A4632A00AFCDF2 /* Main.storyboard */,
 				30C7E41220A468A400AFCDF2 /* Contstants.swift */,
 				30C7E3E920A4632C00AFCDF2 /* Assets.xcassets */,
@@ -269,10 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				30C7E41320A468A400AFCDF2 /* Contstants.swift in Sources */,
+				30E9425E20B7E0AC0086E74F /* Add3ViewController.swift in Sources */,
 				30C7E41120A467A000AFCDF2 /* AddViewController.swift in Sources */,
 				30C7E3E120A4632A00AFCDF2 /* AppDelegate.swift in Sources */,
 				303ADCDE20B0462100231755 /* Add2ViewController.swift in Sources */,
 				30C7E3E320A4632A00AFCDF2 /* FoodViewController.swift in Sources */,
+				30E9426020B7FB570086E74F /* Food3ViewController.swift in Sources */,
 				303ADCDC20B045E700231755 /* Food2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
