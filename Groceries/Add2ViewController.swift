@@ -8,9 +8,9 @@
 
 import UIKit
 
-class AddViewController: UIViewController {
-
-    @IBOutlet weak var foodName: UITextField!
+class Add2ViewController: UIViewController {
+    
+    @IBOutlet weak var foodName2: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,18 +22,18 @@ class AddViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func itemAdd(_ sender: UIButton) {
-       
-        if (foodName.text != nil) && foodName.text != "" {
-            foodList?.append(foodName.text!)
-            foodName.text = ""
-            print("Pantry item added");
+    @IBAction func itemAdd2(_ sender: Any) {
+    
+        if (foodName2.text != nil) && foodName2.text != "" {
+            foodList2?.append(foodName2.text!)
+            foodName2.text = ""
+            print("fridge item added");
 
         }
         
         
     }
-
+    
 
     /*
     // MARK: - Navigation

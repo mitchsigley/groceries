@@ -8,11 +8,10 @@
 
 import UIKit
 
-class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+class Food3ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var CountLabel: UILabel!
-    
     
     
     override func viewDidLoad() {
@@ -20,37 +19,36 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
         
         tableView.delegate = self
         tableView.dataSource = self
-        print("pantry viewloaded");
+        print("freezer viewloaded");
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         tableView.reloadData()
-        print("pantry reload data");
+        print("freezer reload data");
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-  
-        if let food = foodList {
-            print("pantry return count");
+        
+        if let food = foodList3 {
+            print("freezer return count");
             print(food.count);
-           foodListNum = food.count
+            foodList3Num = food.count
             
             return food.count
             
-        
+            
         }else {
             return 0
         }
-        
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        if let food = foodList {
+        if let food = foodList3 {
             cell.textLabel?.text = food[indexPath.row]
-            print("pantry food added");
-
+            print("freezer food added");
+            
         }
         return cell
     }
@@ -58,7 +56,7 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
-            foodList?.remove(at: indexPath.row)
+            foodList3?.remove(at: indexPath.row)
             tableView.reloadData()
         }
         
