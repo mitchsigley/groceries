@@ -34,6 +34,7 @@ class Food3ViewController:  UIViewController, UITableViewDelegate, UITableViewDa
         if let food = foodList3 {
             print("freezer return count");
             print(food.count);
+            foodList3Num = food.count
             
             return food.count
             

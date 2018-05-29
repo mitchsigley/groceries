@@ -20,6 +20,8 @@
 		30C7E41320A468A400AFCDF2 /* Contstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7E41220A468A400AFCDF2 /* Contstants.swift */; };
 		30E9425E20B7E0AC0086E74F /* Add3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */; };
 		30E9426020B7FB570086E74F /* Food3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9425F20B7FB570086E74F /* Food3ViewController.swift */; };
+		30F9227A20BCEB45009C53AF /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 30F9227920BCEB45009C53AF /* assets */; };
+		30F9227C20BCF674009C53AF /* dashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9227B20BCF674009C53AF /* dashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		30C7E41220A468A400AFCDF2 /* Contstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstants.swift; sourceTree = "<group>"; };
 		30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add3ViewController.swift; sourceTree = "<group>"; };
 		30E9425F20B7FB570086E74F /* Food3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food3ViewController.swift; sourceTree = "<group>"; };
+		30F9227920BCEB45009C53AF /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		30F9227B20BCF674009C53AF /* dashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				30C7E3E020A4632A00AFCDF2 /* AppDelegate.swift */,
+				30F9227B20BCF674009C53AF /* dashViewController.swift */,
 				30C7E3E220A4632A00AFCDF2 /* FoodViewController.swift */,
 				303ADCDB20B045E700231755 /* Food2ViewController.swift */,
 				30E9425F20B7FB570086E74F /* Food3ViewController.swift */,
@@ -118,6 +123,7 @@
 				30E9425D20B7E0AC0086E74F /* Add3ViewController.swift */,
 				30C7E3E620A4632A00AFCDF2 /* Main.storyboard */,
 				30C7E41220A468A400AFCDF2 /* Contstants.swift */,
+				30F9227920BCEB45009C53AF /* assets */,
 				30C7E3E920A4632C00AFCDF2 /* Assets.xcassets */,
 				30C7E3EB20A4632C00AFCDF2 /* LaunchScreen.storyboard */,
 				30C7E3EE20A4632C00AFCDF2 /* Info.plist */,
@@ -248,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30C7E3ED20A4632C00AFCDF2 /* LaunchScreen.storyboard in Resources */,
+				30F9227A20BCEB45009C53AF /* assets in Resources */,
 				30C7E3EA20A4632C00AFCDF2 /* Assets.xcassets in Resources */,
 				30C7E3E820A4632A00AFCDF2 /* Main.storyboard in Resources */,
 			);
@@ -281,6 +288,7 @@
 				303ADCDE20B0462100231755 /* Add2ViewController.swift in Sources */,
 				30C7E3E320A4632A00AFCDF2 /* FoodViewController.swift in Sources */,
 				30E9426020B7FB570086E74F /* Food3ViewController.swift in Sources */,
+				30F9227C20BCF674009C53AF /* dashViewController.swift in Sources */,
 				303ADCDC20B045E700231755 /* Food2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

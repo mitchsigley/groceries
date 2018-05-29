@@ -13,7 +13,13 @@ var foodList:[String]?
 var foodList2:[String]?
 //FREEZER VAR
 var foodList3:[String]?
-
+//PANTRY NUMBER VAR
+var foodListNum = 0
+//FRIDGE NUMBER VAR
+var foodList2Num = 0
+//FREEZER NUMBER VAR
+var foodList3Num = 0
+//TOTAL
 
 func saveData(foodList:[String]) {
     UserDefaults.standard.set(foodList2, forKey: "foodList")

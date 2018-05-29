@@ -35,13 +35,15 @@ class FoodViewController:  UIViewController, UITableViewDelegate, UITableViewDat
         if let food = foodList {
             print("pantry return count");
             print(food.count);
-
+           foodListNum = food.count
+            
             return food.count
             
         
         }else {
             return 0
         }
+        
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)

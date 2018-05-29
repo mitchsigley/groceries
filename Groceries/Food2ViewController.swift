@@ -34,6 +34,7 @@ class Food2ViewController:  UIViewController, UITableViewDelegate, UITableViewDa
         if let food = foodList2 {
             print("fridge return count");
             print(food.count);
+            foodList2Num = food.count
             
             return food.count
             
